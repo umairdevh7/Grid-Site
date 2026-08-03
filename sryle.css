@@ -226,6 +226,7 @@ display: block;
     display:flex;
     gap: 20px;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .pic{
     width: 300px;
@@ -261,16 +262,7 @@ display: block;
     background-size: cover;
     background-position: center;
 }
-.pic:nth-child(7){
-    background: url(https://images.unsplash.com/photo-1713456047082-4e844b81c494?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHByb2Zlc3Npb25hbCUyMGhlYWRzaG90fGVufDB8MnwwfHx8MA%3D%3D);
-    background-size: cover;
-    background-position: center;
-}
-.pic:nth-child(8){
-    background: url(https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWFufGVufDB8MnwwfHx8MA%3D%3D);
-    background-size: cover;
-    background-position: center;
-}
+
 .pic h2{
     height: 180%;
     color: rgb(255, 252, 252);
