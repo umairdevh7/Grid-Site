@@ -226,11 +226,10 @@ display: block;
     display:flex;
     gap: 20px;
     flex-wrap: wrap;
-    justify-content: space-evenly;
 }
 .pic{
     width: 300px;
-    height: 400px;
+    height: 370px;
     border-radius: 15px;
     overflow: hidden;
 }
